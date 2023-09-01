@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  background: #3e3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.slide_one {
+  background: url('http://static.tildacdn.com/tild3761-6535-4262-b363-396565346233/DSC_6989.jpg');
+
+}
+
+.slide_two {
+  background: url('http://www.larakozlova.ru/sites/default/files/pictures/2019/Ola-newborn/07.jpg');
+
+}
+
+.slide_three {
+  background: url('https://static.tildacdn.com/tild3365-6238-4336-a466-383033336137/IMG_2716.jpg');
+
+}
+
+.slide_four {
+  background: url('https://static.tildacdn.com/tild3030-3630-4830-b933-393332356335/256-044_.jpg');
+
+}
+
+.slide_five {
+  background: url('https://image.dnevnik.hr/media/images/1600xX/Jun2020/61897066.jpg');
+
+}
+
+.slide {
+  padding: 0 20px;
+  flex: 1;
+  color: #fff;
+  height: 80vh;
+  border-radius: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide_active {
+  flex: 10;
+  transition: all 0.3s ease-in;
+}
+
+.slide__title {
+  opacity: 0;
+}
+
+.slide_active .slide__title {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.5s;
+}
