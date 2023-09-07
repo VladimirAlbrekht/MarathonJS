@@ -30,8 +30,6 @@
 ## День 5. Создана игра для улучшения точности на трех экранах:
 [Ссылка на проект:](https://codepen.io/VladimirAlbrekht/pen/qBLqKKq)
 В течение отведенного времени, которое выбирает игрок, в разных местах на доске появляется кружки разного размера и цвета. При нажатии на один круг, он исчезает и появляется новый круг в другом месте доски. После завершения раунда, игрок видит свой результат.
+| ![Скриншот таймера](./DayFiveGame/images/screenshot-1.png) | ![Скриншот таймера](./DayFiveGame/images/screenshot-2.png) | ![Скриншот таймера](./DayFiveGame/images/screenshot-3.png) |
 
-![Скриншот таймера](./DayFiveGame/images/screenshot-1.png) 
-![Скриншот таймера](./DayFiveGame/images/screenshot-2.png) 
-![Скриншот таймера](./DayFiveGame/images/screenshot-3.png) 
 
